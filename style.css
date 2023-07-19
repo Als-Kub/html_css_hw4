@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: #FFF;
+    font-family: Gilroy-Medium;
+}
+
+.center {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+.header {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 84px;
+    gap: 500px;
+}
+
+.header__nav {
+    width: 533px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 39px;
+}
+
+
+.top__content {
+    display: flex;
+    margin-bottom: 162px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title {
+    width: 522px;
+    margin-bottom: 17px;
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__button {
+    display: flex;
+    margin-top: 37px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 72px;
+    align-items: center;
+}
+
+.top__logo {
+    display: flex;
+    padding-top: 97px;
+    padding-bottom: 96px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+
+
+}
+
+.button__style {
+    padding: 15px 36px 16px 35px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 3px solid transparent;
+}
+
+.button__style:hover {
+    background: #FFF;
+    color: #F25822;
+    border: 3px solid #F25822;
+}
+
+.button_text {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.nav__link {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #F25822;
+}
+
+.text {
+    width: 466px;
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
